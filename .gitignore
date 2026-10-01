@@ -1,0 +1,42 @@
+# ---- SHIFTEDMIND ----
+
+# Runtime output — never commit
+data/
+*.log
+
+# Backups
+shiftedmind_backup_*.tar.gz
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtualenv
+.venv/
+venv/
+env/
+ENV/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (in case you ever add any)
+.env
+.env.*
+*.key
+*.pem
